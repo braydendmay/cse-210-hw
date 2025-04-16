@@ -1,0 +1,1 @@
+string directoryPath = @"C:\adson-root\byu-software-dev\cse210-projects\week06\EternalQuest\bin\Debug\net8.0\";
