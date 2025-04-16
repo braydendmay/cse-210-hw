@@ -100,7 +100,7 @@ public class GoalManager
 
     public void SaveGoals()
     {
-        string directoryPath = @"C:\adson-root\byu-software-dev\cse210-projects\week06\EternalQuest\bin\Debug\net8.0\";
+        string directoryPath = @"C:/cse-210-HW/week06/EternalQuest/";
 
         Console.Write("Enter the filename (without extension): ");
         string filename = Console.ReadLine()?.Trim();
@@ -153,7 +153,7 @@ public class GoalManager
             filename += ".txt";
         }
 
-        string directoryPath = @"C:\week06/EternalQuest";
+        string directoryPath = @"C:/cse-210-HW/week06/EternalQuest/";
 
         if (string.IsNullOrWhiteSpace(filename))
         {
